@@ -1,5 +1,10 @@
 # Local DriveLM startup
 
+The current experiment target is the paper's BLIP-2 + FLAN-T5-XL model.
+See [dataset and BLIP-2 status](docs/DATA_AND_BLIP2.md) for the downloaded full
+dataset and the missing original training-code limitation. The instructions
+below describe the repository's released LLaMA-Adapter challenge baseline.
+
 Upstream: https://github.com/OpenDriveLab/DriveLM
 
 Upstream base revision: `1de72a74b257e5373400fa68239e99bd5d20580a`
