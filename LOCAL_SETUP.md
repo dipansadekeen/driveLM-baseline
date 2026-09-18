@@ -2,11 +2,12 @@
 
 Upstream: https://github.com/OpenDriveLab/DriveLM
 
-Checked out revision: `1de72a74b257e5373400fa68239e99bd5d20580a`
+Upstream base revision: `1de72a74b257e5373400fa68239e99bd5d20580a`
 
-Local branch: `setup/local-demo`. This is a shallow upstream clone, not yet
-a GitHub fork. No authenticated GitHub CLI, token, or configured credential
-helper was available during setup.
+Fork: https://github.com/dipansadekeen/driveLM-baseline
+
+The baseline setup lives on `main`. The local repository retains the official
+repository as `upstream` and uses the personal fork as `origin`.
 
 ## Completed
 
@@ -76,7 +77,6 @@ CARLA inference is still marked unreleased in the upstream README.
 
 ## GitHub fork
 
-Authenticate GitHub in the execution environment and identify the destination
-account or organization. Then create the fork, preserve the official repository
-as `upstream`, and set `origin` to the fork. No remote changes or pushes have
-been performed.
+The public fork was created under `dipansadekeen` on 2026-09-18. GitHub CLI
+authentication is configured separately from this repository. Generated local
+outputs and model checkpoints are ignored by Git.
